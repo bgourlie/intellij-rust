@@ -36,6 +36,7 @@ class RustCompleteParsingTestCase : RustParsingTestCaseBase("complete") {
     fun testAssociatedTypes() = doTest(true)
 
     fun testIssue320() = doTest(true)
+    fun testIssue492() = doTest(true)
 
     override fun checkResult(targetDataName: String?, file: PsiFile?) {
         super.checkResult(targetDataName, file)

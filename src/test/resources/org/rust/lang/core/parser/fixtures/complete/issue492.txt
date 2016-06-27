@@ -1,0 +1,13 @@
+FILE
+  RustMacroItemElementImpl(MACRO_ITEM)
+    RustMacroDefinitionElementImpl(MACRO_DEFINITION)
+      RustMacroInvocationElementImpl(MACRO_INVOCATION)
+        PsiElement(<IDENTIFIER>)('macro_rules')
+        PsiElement(!)('!')
+      PsiWhiteSpace(' ')
+      PsiElement(<IDENTIFIER>)('vec')
+      PsiWhiteSpace(' ')
+      RustMacroArgElementImpl(MACRO_ARG)
+        PsiElement({)('{')
+        PsiWhiteSpace('\n')
+        PsiElement(})('}')
